@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+:root{
+    --primary-fonts:"Poppins",sans-sarif;
+    --secondary-fonts:"Ubuntu",sans-sarif;
+    --primary-color:#18454A;
+    --secondary-color:#E3AFBC;
+    --accent-color:#A0144F;
+}
+.container {
+    padding: 5% 10%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+.body{
+    background-color: #5d4f4f;
+}
+#header{
+    background-color:var(--primary-color) ;
+}
+.icon {
+    float: right;
+}
+.fab, .far {
+    font-weight: 400;
+    padding: 5px;
+    display: inline-block;
+}
+.logo img {
+    width: 160px;
+    height: 140px;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li {
+    float: right;
+    list-style: none;
+    padding-right: 6px;
+    color: var(--secondary-color);
+}
+.nav ul a {
+    display: inline-block;
+    font-size: 15px;
+    font-family: var(--primary-fonts);
+    font-weight: 300;
+    padding: 11px 7px;
+    color: #bd6468;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: #336f75;
+    border-radius: 10px;
+}
+.nav ul a:hover {
+    color: #a39596;
+    background: #4e898f;
+}
+/* banner-section */
+.banner_inner {
+    background-image: url("../images/banner/1.jpg");
+    background-repeat: none;
+    background-position: relative;
+    background-attachment: fixed;
+    background-position: center;
+}
+.banner_inner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 20px;
+    text-align: center;
+    color: burlywood;
+    font-family: var(--primary-fonts);
+}
+.banner_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #312573;
+    font-family: var(--primary-fonts);
+    padding: 20px;
+    text-align: justify;
+}
+
