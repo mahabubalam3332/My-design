@@ -75,8 +75,10 @@
     line-height: 30px;
     padding: 20px;
     text-align: center;
-    color: burlywood;
+    color: #b77e34;
     font-family: var(--primary-fonts);
+    text-shadow: 8px 8px 8px;
+    letter-spacing: 1.5px;
 }
 .banner_inner p {
     font-size: 20px;
@@ -87,23 +89,97 @@
     padding: 20px;
     text-align: justify;
 }
+a.button {
+    padding: 11px 20px;
+    display: inline-block;
+    background: #ccc24b;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+a.button:hover {
+    background: #625b0a;
+    color:#fff;
+
+}
 /* slider_section */
 
 .slider_inner {
     background: #0b545d;
 }
 .slider_title h2 {
-    font-size: 40px;
+    font-size: 48px;
     font-family: poppins;
     font-weight: 700;
     line-height: 55px;
     text-align: center;
     padding: 10px;
+    text-shadow: 7px 11px 8px;
+    letter-spacing: 6.5px;
 }
 .slider_title p {
-    font-size: 15px;
+    font-size: 22px;
     line-height: 27px;
     text-align: center;
     padding: 20px;
     color: burlywood;
+    letter-spacing: 1.5px;
+}
+/* review-profile */
+
+.display_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display_profile {
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px 5px #e6d8d8;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.display_profile img {
+    width: 150px;
+    height: 150px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.display_profile h2 {
+    font-size: 25px;
+    font-family: poppins;
+    line-height: 39px;
+    font-weight: 700;
+}
+.display_profile p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+}
+/* services */
+
+.services_pic {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    padding-left: 20px;
+}
+.services_inner h2 {
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 11px;
+    color: #947854;
+    background: #ec94a5;
+    text-shadow: 7px 11px 8px;
+    text-align: center;
+}
+.services_pic img {
+    width: 500px;
+    height: 300px;
+    padding: 7px;
 }
